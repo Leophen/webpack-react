@@ -33,6 +33,20 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      // CSS, PostCSS, and Sass
+      {
+        test: /\.(scss|css)$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+          'postcss-loader'
+        ]
       }
     ]
   }

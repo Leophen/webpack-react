@@ -51,7 +51,12 @@ module.exports = {
       // 加载图片资源
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader']
+        type: 'asset/resource'
+      },
+      // 加载字体资源
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/inline'
       }
     ]
   }

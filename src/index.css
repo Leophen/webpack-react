@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'audiowide';
+  src: url('fonts/audiowide-regular-webfont.woff2') format('woff2'),
+    url('fonts/audiowide-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -7,4 +15,5 @@
   font-size: 24px;
   font-weight: bold;
   color: cadetblue;
+  font-family: 'audiowide';
 }

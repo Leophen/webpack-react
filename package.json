@@ -6,7 +6,9 @@
   "author": "Dorkiliu <dorkiliu@tencent.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "start": "webpack serve",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -22,6 +24,7 @@
     "postcss-preset-env": "^7.0.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.64.3",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   }
 }

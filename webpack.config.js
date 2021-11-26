@@ -5,6 +5,12 @@ const friendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
 module.exports = {
   mode: 'development',
+  devtool: 'inline-source-map',
+  devServer: {
+    open: true,
+    hot: true,
+    port: 8080
+  },
   entry: {
     app: './src/index.js'
   },

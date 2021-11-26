@@ -47,6 +47,11 @@ module.exports = {
           },
           'postcss-loader'
         ]
+      },
+      // 加载图片资源
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
       }
     ]
   }

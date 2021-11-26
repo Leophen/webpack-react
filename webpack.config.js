@@ -12,7 +12,7 @@ module.exports = {
     port: 8080
   },
   entry: {
-    app: './src/index.js'
+    app: './src/index.tsx'
   },
   output: {
     path: path.resolve(__dirname, './dist'),

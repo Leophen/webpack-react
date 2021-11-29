@@ -8,7 +8,7 @@ import Text from './components/Text'
 
 const App = () => {
   return <>
-    <div>
+    <div className="container">
       welcome to webpack react project.
       <Text/>
       <img src={webpackImg} alt="webpack" />

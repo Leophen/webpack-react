@@ -11,6 +11,9 @@ module.exports = {
     hot: true,
     port: 8080
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   entry: {
     app: './src/index.jsx'
   },

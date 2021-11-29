@@ -12,7 +12,7 @@ module.exports = {
     port: 8080
   },
   entry: {
-    app: './src/index.tsx'
+    app: './src/index.jsx'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -31,7 +31,7 @@ module.exports = {
     rules: [
       // JavaScript
       {
-        test: /\.m?js$/,
+        test: /\.(m?js|[jt]sx?)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',

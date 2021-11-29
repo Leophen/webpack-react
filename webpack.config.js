@@ -12,10 +12,10 @@ module.exports = {
     port: 8080
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx', '.tsx']
   },
   entry: {
-    app: './src/index.jsx'
+    app: './src/index.tsx'
   },
   output: {
     path: path.resolve(__dirname, './dist'),

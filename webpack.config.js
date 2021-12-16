@@ -12,7 +12,7 @@ module.exports = {
     port: 8080
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.tsx']
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   entry: {
     app: './src/index.tsx'

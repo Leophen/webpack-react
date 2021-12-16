@@ -1,0 +1,28 @@
+@keyframes purpleTikTok {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes orangeTikTok {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+.text {
+  .purple-text {
+    color: mediumslateblue;
+    animation: purpleTikTok 2s ease-out;
+  }
+  .orange-text {
+    color: sandybrown;
+    animation: orangeTikTok 2s ease-out;
+  }
+}
